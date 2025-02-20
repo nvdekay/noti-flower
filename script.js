@@ -34,7 +34,7 @@ function createPopup() {
     content.classList.add("popup-content");
 
     // Message with flower emoji
-    content.innerHTML = "Here are some flowers for you!🌺💐🌹🌷🌼";
+    content.innerHTML = "Tặng diu mấy bông hoa nè!🌺💐🌹🌷🌼";
     popup.appendChild(content);
 
     // Random position

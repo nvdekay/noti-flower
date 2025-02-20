@@ -1,0 +1,61 @@
+body {
+    background-color: #2e2b2b;
+    font-family: Arial, sans-serif;
+}
+/* Main popup container */
+.popup {
+    position: absolute;
+    width: 250px;
+    background-color: #ffebee;
+    border: 1px solid #f8bfbf;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+/* Title bar */
+.popup-header {
+    background-color: white; /* White background */
+    padding: 8px;
+    color: grey; /* Black text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+/* Title text with heart icon */
+.popup-header .title-text {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+/* Icons */
+.popup-header .window-controls {
+    display: flex;
+    gap: 4px;
+}
+.window-controls span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.minimize { background-color: #f7d6d6; }
+.maximize { background-color: #fad8d8; }
+.close-btn { background-color: #f5a5a5; }
+.window-controls span:hover {
+    filter: brightness(0.9);
+}
+/* Content */
+.popup-content {
+    background-color: pink; /* Pink background */
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* White text */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

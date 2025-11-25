@@ -1,5 +1,10 @@
 body {
-    background-color: #2e2b2b;
+    /* Dreamy pastel gradient background */
+    background: radial-gradient(circle at 10% 20%, #be9fab 0%, rgba(206, 151, 173, 0.8) 10%, #e0c5db 40%, #a5c9da 70%),
+                linear-gradient(135deg, #f7c2dc 0%, #ceb7f0 50%, #93d0e2 100%);
+    background-blend-mode: screen, normal;
+    min-height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 /* Main popup container */
@@ -49,12 +54,12 @@ body {
 }
 /* Content */
 .popup-content {
-    background-color: pink; /* Pink background */
+    background-color: #ffdfe6; /* Soft pink background */
     padding: 20px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: white; /* White text */
+    color: #3a2b2b; /* Dark text for good contrast on pastel background */
     display: flex;
     align-items: center;
     gap: 8px;
